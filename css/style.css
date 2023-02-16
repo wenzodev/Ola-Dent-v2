@@ -566,7 +566,7 @@ footer span {
         display: none;
     }
 
-    .map {
+    .info-box .map {
         width: 300px;
         height: 300px;
     }
