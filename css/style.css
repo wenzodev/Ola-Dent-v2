@@ -573,4 +573,19 @@ footer span {
         width: 300px;
         height: 300px;
     }
+
+    .wrapper-gallery {
+        width: 80vw;
+        padding-bottom: 1rem;
+    }
+
+    #index-gallery {
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: auto;
+        grid-gap: 1rem;
+        grid-template-areas:
+            "img1 img2 img3 img4"
+            "img5 img6 img7 img8"
+            "img9 img10 img11 img12";
+    }
 }
