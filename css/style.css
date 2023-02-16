@@ -567,7 +567,7 @@ footer span {
     }
 
     .map {
-        max-width: 80vw;
-        max-height: 50vh;
+        width: 100%;
+        height: auto;
     }
 }
