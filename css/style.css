@@ -267,8 +267,8 @@ main {
 }
 
 .map {
-    min-width: 35rem;
-    min-height: 25rem;
+    max-width: 35rem;
+    max-height: 25rem;
     background-color: white;
 }
 
