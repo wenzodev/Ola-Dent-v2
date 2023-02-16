@@ -553,8 +553,16 @@ footer span {
 }
 
 @media (max-width: 600px) {
+    .dental {
+        max-width: 90vw;
+    }
+
     .services-main-board {
         width: 80vw;
 
+    }
+
+    .info-box .kontakt-bottom {
+        display: none;
     }
 }
