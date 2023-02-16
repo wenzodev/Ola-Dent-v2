@@ -559,7 +559,10 @@ footer span {
 
     .services-main-board {
         width: 80vw;
+    }
 
+    .services .title p {
+        display: none;
     }
 
     .info-box .kontakt-bottom {
