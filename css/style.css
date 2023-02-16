@@ -565,4 +565,9 @@ footer span {
     .info-box .kontakt-bottom {
         display: none;
     }
+
+    .map {
+        max-width: 80vw;
+        height: auto;
+    }
 }
