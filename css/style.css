@@ -267,9 +267,9 @@ main {
 }
 
 .map {
-    max-width: 35rem;
-    max-height: 25rem;
-    background-color: white;
+    width: 35rem;
+    height: 25rem;
+    background-color: #fff;
 }
 
 /* Gallery */
