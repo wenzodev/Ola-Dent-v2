@@ -640,11 +640,19 @@ footer span {
 
     #index-gallery {
         grid-template-columns: repeat(3, 1fr);
-        grid-template-rows: auto;
+        grid-template-rows: 3;
         grid-gap: 1rem;
         grid-template-areas:
             "img1 img2 img3"
-            "img4 img5 img6"
-            "img7 img8";
+            "img4 img5 img6";
+    }
+
+    /* Images */
+    #index-gallery .img7 {
+        display: none;
+    }
+
+    #index-gallery .img8 {
+        display: none;
     }
 }
